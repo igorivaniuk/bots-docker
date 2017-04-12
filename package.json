@@ -1,0 +1,17 @@
+{
+  "name": "test_node_docker",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Tests\"",
+    "e2e": "echo \"E2E\""
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "morgan": "^1.7.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,9 @@
+version: '2'
+services:
+  bot:
+    restart: always
+    build: .
+    ports:
+      - "127.0.0.1:9002:80"
+    volumes:
+      - ./configs:/usr/app/configs
